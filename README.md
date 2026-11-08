@@ -1,28 +1,26 @@
-# Hangman Game using Python
+# Basic Chatbot using Python
 
 ## About the Project
-This is a simple console-based Hangman Game developed using Python as part of my CodeAlpha Python Programming Internship.
+This is a simple rule-based chatbot developed using Python.
 
-In this game, the player has to guess a hidden word one letter at a time.
+It interacts with users through the console and responds to basic messages using predefined responses.
 
 ## Features
-- Uses five predefined words.
-- Randomly selects a word for each game.
-- Allows a maximum of 6 incorrect guesses.
-- Checks repeated and invalid inputs.
-- Displays whether the player wins or loses.
+- Responds to greetings.
+- Answers basic questions.
+- Uses predefined messages.
+- Continues chatting until the user types "bye".
+- Displays a goodbye message before exiting.
 
 ## Technologies Used
 - Python
-- Random Module
 
 ## Concepts Used
-- Variables
-- Lists
+- Functions
 - While Loops
-- For Loops
-- If-Else Statements
+- If-Elif-Else Statements
 - Strings
+- User Input and Output
 
 ## How to Run
 1. Install Python on your computer.
@@ -31,11 +29,11 @@ In this game, the player has to guess a hidden word one letter at a time.
 4. Run the following command:
 
 ```bash
-python "Hangman Game.py"
+python chatbot.py
 ```
 
 ## Project Type
-Beginner-level Python Console Application.
+Beginner-level Rule-Based Console Chatbot.
 
 ## Internship
 Developed as part of the CodeAlpha Python Programming Internship.
